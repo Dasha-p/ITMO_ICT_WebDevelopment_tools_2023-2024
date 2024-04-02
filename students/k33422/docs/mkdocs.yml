@@ -1,0 +1,17 @@
+site_name: My Docs
+
+theme:
+  name: material
+
+nav:
+  - Главная: index.md
+  - Лабораторная №1:
+      - База данных:
+          - Схема: 'lr_1/db_scheme.md'
+          - Модели: 'lr_1/db_models.md'
+          - Подключение: 'lr_1/db_connection.md'
+      - API Эндпоинты:
+          - Пользователи: 'lr_1/api_users.md'
+          - Поездки: 'lr_1/api_trips.md'
+          - Компаньоны: 'lr_1/api_companions.md'
+          - Отзывы: 'lr_1/api_reviews.md'
