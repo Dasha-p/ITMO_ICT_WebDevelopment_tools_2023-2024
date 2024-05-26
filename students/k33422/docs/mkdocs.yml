@@ -15,3 +15,6 @@ nav:
           - Поездки: 'lr_1/api_trips.md'
           - Компаньоны: 'lr_1/api_companions.md'
           - Отзывы: 'lr_1/api_reviews.md'
+  - Лабораторная №2:
+      - Задание 1: 'lr_2/task_1.md'
+      - Задание 2: 'lr_2/task_2.md'
