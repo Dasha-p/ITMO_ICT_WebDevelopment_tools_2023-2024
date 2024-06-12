@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../task_1/">
+        <link rel="prev" href="../dockerfile/">
       
       
-        <link rel="next" href="../../lr_3/dockerfile/">
+        <link rel="next" href="../celery/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Задание 2 - Отчеты</title>
+        <title>Описание Docker-Compose.yml - Отчеты</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#async-multiprocessing-threading-io-bound" class="md-skip">
+        <a href="#docker-compose" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Задание 2
+              Описание Docker-Compose.yml
             
           </span>
         </div>
@@ -483,19 +483,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -509,7 +507,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Лабораторная №2
@@ -523,11 +521,97 @@
   
   
     <li class="md-nav__item">
-      <a href="../task_1/" class="md-nav__link">
+      <a href="../../lr_2/task_1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Задание 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lr_2/task_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Задание 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Лабораторная №3
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Лабораторная №3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dockerfile/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Описание Dockerfile
   </span>
   
 
@@ -550,12 +634,14 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   <span class="md-ellipsis">
-    Задание 2
+    Описание Docker-Compose.yml
   </span>
   
 
@@ -566,7 +652,7 @@
         
   
   <span class="md-ellipsis">
-    Задание 2
+    Описание Docker-Compose.yml
   </span>
   
 
@@ -578,6 +664,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -586,33 +674,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#async-multiprocessing-threading-io-bound" class="md-nav__link">
+  <a href="#postgres" class="md-nav__link">
     <span class="md-ellipsis">
-      Применение async, multiprocessing и threading для I/O-bound задач (получение запросов и запись в базу данных)
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Применение async, multiprocessing и threading для I/O-bound задач (получение запросов и запись в базу данных)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Применение и выводы
+      Сервис postgres
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сервис redis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#celery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сервис celery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сервис fastapi
+    </span>
+  </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Заключение
+      Тома
     </span>
   </a>
   
@@ -627,48 +727,6 @@
 
               
             
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Лабораторная №3
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Лабораторная №3
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
               
                 
   
@@ -676,49 +734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lr_3/dockerfile/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Описание Dockerfile
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../lr_3/docker-compose/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Описание Docker-Compose.yml
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../lr_3/celery/" class="md-nav__link">
+      <a href="../celery/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -756,6 +772,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -764,33 +782,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#async-multiprocessing-threading-io-bound" class="md-nav__link">
+  <a href="#postgres" class="md-nav__link">
     <span class="md-ellipsis">
-      Применение async, multiprocessing и threading для I/O-bound задач (получение запросов и запись в базу данных)
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Применение async, multiprocessing и threading для I/O-bound задач (получение запросов и запись в базу данных)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. Применение и выводы
+      Сервис postgres
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#redis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сервис redis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#celery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сервис celery
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fastapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Сервис fastapi
+    </span>
+  </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Заключение
+      Тома
     </span>
   </a>
   
@@ -811,74 +841,119 @@
                   
 
 
-  <h1>Задание 2</h1>
-
-<h3 id="async-multiprocessing-threading-io-bound">Применение <code>async</code>, <code>multiprocessing</code> и <code>threading</code> для I/O-bound задач (получение запросов и запись в базу данных)</h3>
-<h4 id="1">1. Применение и выводы</h4>
-<p>На основании приведенных данных производительности для различных методов при выполнении I/O-bound
-задач, можно сделать следующие выводы:</p>
-<table>
-<thead>
-<tr>
-<th>Метод</th>
-<th>Время выполнения (секунды)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>async</code></td>
-<td>2.054</td>
-</tr>
-<tr>
-<td><code>multiprocessing</code></td>
-<td>3.017</td>
-</tr>
-<tr>
-<td><code>threading</code></td>
-<td>1.742</td>
-</tr>
-</tbody>
-</table>
+<h1 id="docker-compose">Документация Docker Compose</h1>
+<p>Этот файл <code>docker-compose.yml</code> используется для определения и конфигурации сервисов, необходимых для запуска приложения в
+контейнерах Docker.</p>
+<h2 id="postgres">Сервис <code>postgres</code></h2>
+<pre><code class="language-yaml">postgres:
+  container_name: postgres
+  image: postgres:16-alpine
+  restart: always
+  environment:
+    - POSTGRES_USER=${DB_USER}
+    - POSTGRES_PASSWORD=${DB_PASSWORD}
+    - POSTGRES_DB=${DB_NAME}
+  env_file:
+    - .env
+  ports:
+    - &quot;5432:5432&quot;
+  healthcheck:
+    test: [ &quot;CMD-SHELL&quot;, &quot;pg_isready -U ${DB_USER}&quot; ]
+    interval: 10s
+    timeout: 5s
+    retries: 5
+  volumes:
+    - pgdata:/var/lib/postgresql/data
+</code></pre>
+<p>Этот сервис определяет контейнер PostgreSQL. Он использует образ <code>postgres:16-alpine</code> и настраивает следующие параметры:</p>
 <ul>
-<li>
-<p><strong><code>async</code> (2.054 секунды)</strong>:</p>
+<li><code>container_name</code>: Устанавливает имя контейнера в <code>postgres</code>.</li>
+<li><code>restart</code>: Политика перезапуска установлена в <code>always</code>, чтобы контейнер автоматически перезапускался в случае сбоя.</li>
+<li><code>environment</code>: Определяет переменные окружения для конфигурации PostgreSQL, такие как имя пользователя, пароль и имя базы
+  данных. Значения берутся из файла <code>.env</code>.</li>
+<li><code>env_file</code>: Указывает файл <code>.env</code> для загрузки переменных окружения.</li>
+<li><code>ports</code>: Проксирует порт 5432 контейнера на порт 5432 хоста.</li>
+<li><code>healthcheck</code>: Настраивает проверку работоспособности контейнера с помощью команды <code>pg_isready</code>.</li>
+<li><code>volumes</code>: Монтирует том <code>pgdata</code> для сохранения данных PostgreSQL.</li>
+</ul>
+<h2 id="redis">Сервис <code>redis</code></h2>
+<pre><code class="language-yaml">redis:
+  image: redis:7-alpine
+  restart: always
+  ports:
+    - &quot;6379:6379&quot;
+  healthcheck:
+    test: [ &quot;CMD&quot;, &quot;redis-cli&quot;, &quot;ping&quot; ]
+    interval: 10s
+    timeout: 5s
+    retries: 5
+</code></pre>
+<p>Этот сервис определяет контейнер Redis. Он использует образ <code>redis:7-alpine</code> и настраивает следующие параметры:</p>
 <ul>
-<li>Асинхронный метод показывает хорошую производительность для I/O-bound задач, так как позволяет
-  эффективно управлять ожиданием сетевых запросов и операций с базой данных.</li>
-<li>Асинхронное программирование позволяет выполнять другие операции, пока одна задача ожидает
-  завершения I/O операции.</li>
+<li><code>restart</code>: Политика перезапуска установлена в <code>always</code>, чтобы контейнер автоматически перезапускался в случае сбоя.</li>
+<li><code>ports</code>: Проксирует порт 6379 контейнера на порт 6379 хоста.</li>
+<li><code>healthcheck</code>: Настраивает проверку работоспособности контейнера с помощью команды <code>redis-cli ping</code>.</li>
 </ul>
-</li>
-<li>
-<p><strong><code>multiprocessing</code> (3.017 секунды)</strong>:</p>
+<h2 id="celery">Сервис <code>celery</code></h2>
+<pre><code class="language-yaml">celery:
+  container_name: celery
+  build: .
+  command: python -m celery -A src.services.celery_worker worker -l info
+  depends_on:
+    redis:
+      condition: service_healthy
+    postgres:
+      condition: service_healthy
+</code></pre>
+<p>Этот сервис определяет контейнер Celery. Он использует Dockerfile в текущей директории для сборки образа и настраивает
+следующие параметры:</p>
 <ul>
-<li>Метод <code>multiprocessing</code> показывает наихудшую производительность для I/O-bound задач из-за
-  накладных расходов на создание и управление процессами.</li>
-<li>Для чисто I/O-bound задач использование процессов менее эффективно, чем использование потоков
-  или асинхронного программирования.</li>
+<li><code>container_name</code>: Устанавливает имя контейнера в <code>celery</code>.</li>
+<li><code>command</code>: Указывает команду для запуска рабочего процесса Celery.</li>
+<li><code>depends_on</code>: Определяет зависимости сервиса от контейнеров <code>redis</code> и <code>postgres</code>. Сервис будет запущен только после того, как
+  эти контейнеры будут здоровы.</li>
 </ul>
-</li>
-<li>
-<p><strong><code>threading</code> (1.742 секунды)</strong>:</p>
+<h2 id="fastapi">Сервис <code>fastapi</code></h2>
+<pre><code class="language-yaml">fastapi:
+  container_name: fastapi
+  build: .
+  command: python -m uvicorn src.main:app --host 0.0.0.0 --port 8000
+  ports:
+    - &quot;8000:8000&quot;
+  depends_on:
+    redis:
+      condition: service_healthy
+    postgres:
+      condition: service_healthy
+    celery:
+      condition: service_started
+</code></pre>
+<p>Этот сервис определяет контейнер FastAPI. Он использует Dockerfile в текущей директории для сборки образа и настраивает
+следующие параметры:</p>
 <ul>
-<li>Многопоточность показывает лучшую производительность для I/O-bound задач, так как потоки могут
-  эффективно переключаться при ожидании I/O операций.</li>
-<li>Потоки менее затратны по ресурсам по сравнению с процессами и обеспечивают более высокую
-  производительность для задач, включающих множество операций ввода-вывода.</li>
+<li><code>container_name</code>: Устанавливает имя контейнера в <code>fastapi</code>.</li>
+<li><code>command</code>: Указывает команду для запуска приложения FastAPI с помощью Uvicorn.</li>
+<li><code>ports</code>: Проксирует порт 8000 контейнера на порт 8000 хоста.</li>
+<li><code>depends_on</code>: Определяет зависимости сервиса от контейнеров <code>redis</code>, <code>postgres</code> и <code>celery</code>. Сервис будет запущен только после
+  того, как <code>redis</code> и <code>postgres</code> будут здоровы, а <code>celery</code> будет запущен.</li>
 </ul>
-</li>
-</ul>
-<h3 id="_1">Заключение</h3>
-<ul>
-<li><strong>Asyncio</strong>: Хороший выбор для I/O-bound задач, так как эффективно управляет ожиданием операций
-  ввода-вывода. Сложнее в отладке и управлении, но может значительно улучшить производительность для
-  высоконагруженных систем.</li>
-<li><strong>Multiprocessing</strong>: Подходит для CPU-bound задач, но для I/O-bound задач может быть менее
-  эффективным из-за накладных расходов на создание процессов.</li>
-<li><strong>Threading</strong>: Эффективен для I/O-bound задач, позволяет лучше использовать время ожидания
-  операций ввода-вывода. Прост в реализации и отладке, но может быть ограничен GIL для CPU-bound
-  задач.</li>
-</ul>
+<h2 id="_1">Тома</h2>
+<pre><code class="language-yaml">volumes:
+  pgdata:
+</code></pre>
+<p>В разделе <code>volumes</code> определяется именованный том <code>pgdata</code>, который используется для сохранения данных PostgreSQL.</p>
+<hr />
+<p>Для запуска приложения с использованием этой конфигурации Docker Compose, вы можете выполнить следующую команду в директории,
+содержащей файл <code>docker-compose.yml</code>:</p>
+<pre><code class="language-bash">docker-compose up -d
+</code></pre>
+<p>Эта команда запустит все сервисы, определенные в файле <code>docker-compose.yml</code>, в фоновом режиме (<code>-d</code>).</p>
+<p>Чтобы остановить и удалить контейнеры, вы можете использовать команду:</p>
+<pre><code class="language-bash">docker-compose down
+</code></pre>
+<p>Эта конфигурация Docker Compose обеспечивает скоординированный запуск сервисов приложения, включая базу данных PostgreSQL,
+Redis, Celery и FastAPI. Она также настраивает проверки работоспособности и зависимости между сервисами для обеспечения
+правильного порядка запуска и работы приложения.</p>
 
 
 
