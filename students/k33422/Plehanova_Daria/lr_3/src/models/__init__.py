@@ -1,40 +1,25 @@
-from .companion import (
-    Companion,
-    CompanionBase,
-    StatusScheme,
-    CompanionBaseId,
-    CompanionBaseDetail,
-    Status
-)
+from .companion import (Companion, CompanionBase, CompanionBaseDetail, CompanionBaseId, Status, StatusScheme)
 from .favorite_trip import (
     FavoriuteTrip,
-    FavoriuteTripBase
+    FavoriuteTripBase,
 )
-from .review import (
-    Review,
-    ReviewBase,
-    ReviewBaseId,
-    ReviewBaseList,
-    ReviewBaseDetail,
-    ReviewScheme,
+from .review import (Review, ReviewBase, ReviewBaseDetail, ReviewBaseId, ReviewBaseList, ReviewScheme)
+from .task import (
+    TaskRequest,
+    TaskResponse,
 )
 from .token import (
     Token
 )
-from .trip import (
-    Trip,
-    TripBase,
-    TripDetail,
-    TripBasePartial
-)
+from .trip import (Trip, TripBase, TripBasePartial, TripDetail)
 from .user import (
+    Gender,
     User,
     UserBase,
-    UserBaseId,
     UserBaseCompanion,
+    UserBaseId,
     UserLogin,
     UserPassword,
     UserPasswordCreate,
     UserPasswordUpdate,
-    Gender
 )

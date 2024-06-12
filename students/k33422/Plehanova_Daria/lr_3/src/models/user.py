@@ -1,7 +1,7 @@
 from datetime import date
 from enum import Enum
 
-from sqlmodel import SQLModel, Field, Relationship
+from sqlmodel import Field, Relationship, SQLModel
 
 from .favorite_trip import FavoriuteTrip
 
@@ -12,7 +12,7 @@ class Gender(str, Enum):
 
 
 class UserBase(SQLModel):
-    email: str = Field(unique=True)
+    email: str
     first_name: str
     last_name: str
     gender: Gender
@@ -39,6 +39,7 @@ class UserBaseId(UserBase):
 class UserBaseCompanion(UserBaseId):
     companion_id: int
     status: str
+
 
 class UserLogin(SQLModel):
     email: str = Field(unique=True)

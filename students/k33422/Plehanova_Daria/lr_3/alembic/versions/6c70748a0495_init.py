@@ -1,19 +1,18 @@
-"""Init
+"""init
 
-Revision ID: 0ca655e0008e
+Revision ID: 6c70748a0495
 Revises: 
-Create Date: 2024-03-24 21:36:22.420989
+Create Date: 2024-06-12 07:00:35.159222
 
 """
 from typing import Sequence, Union
 
-from alembic import op
 import sqlalchemy as sa
 import sqlmodel
-
+from alembic import op
 
 # revision identifiers, used by Alembic.
-revision: str = '0ca655e0008e'
+revision: str = '6c70748a0495'
 down_revision: Union[str, None] = None
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
@@ -32,8 +31,7 @@ def upgrade() -> None:
     sa.Column('language', sqlmodel.sql.sqltypes.AutoString(), nullable=False),
     sa.Column('password_hash', sa.LargeBinary(), nullable=False),
     sa.Column('id', sa.Integer(), nullable=False),
-    sa.PrimaryKeyConstraint('id'),
-    sa.UniqueConstraint('email')
+        sa.PrimaryKeyConstraint('id')
     )
     op.create_table('trip',
     sa.Column('start_location', sqlmodel.sql.sqltypes.AutoString(), nullable=False),
